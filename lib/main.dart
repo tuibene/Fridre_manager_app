@@ -6,7 +6,7 @@ import 'screens/RegisterScreen.dart';
 import 'screens/DashboardScreen.dart' as dashboard;
 import 'screens/ManagementScreen.dart';
 import 'screens/SuggestScreen.dart';
-import 'screens/StatsScreen.dart';
+import 'screens/stats_screen/StatsScreen.dart';
 import 'screens/SettingsScreen.dart' as settings;
 
 void main() async {

@@ -6,6 +6,8 @@ pluginManagement {
         require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }
         flutterSdkPath
     }
+    val newBuildDir = layout.buildDirectory.dir("../../build").get()
+    layout.buildDirectory.set(newBuildDir)
 
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
